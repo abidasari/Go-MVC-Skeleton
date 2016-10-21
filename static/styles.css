@@ -1,10 +1,27 @@
+body{
+    background-color: #173049;
+}
+
+
 .Data{
     position: absolute;
-    background-color: #002F3C;
+    background-color: #020F1C;
+    display: block;
     margin-left: -300px;
     width: 600px;
     height: inherit;
-    top: 15%;
+    top: 10%;
+    left: 50%;
+    float: top;
+}
+.FormDiv{
+    position: absolute;
+    display: inline-block;
+    width: 400px;
+    height: inherit;
+    margin-left: -200px;
+    margin-top: 30px;
+    /*bottom: -300px;*/
     left: 50%;
 }
 
@@ -15,7 +32,7 @@
     font-size: 32px;
     font-family: Lato;
     font-weight: bold;
-    color: #017191;
+    color: #2A435D;
 }
 
 .DataElement{
@@ -42,6 +59,30 @@ li:hover {
     box-shadow: 0px 0px 7px rgba(255,255,255,0.9);
 }
 
-body{
-    background-color: #005D77;
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
 }
+
+input[type=submit] {
+    font-family: Lato;
+    font-weight: bold;
+    width: 100%;
+    background-color: #2A435D;
+    color: #020F1C;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #15406C;
+}
+
+

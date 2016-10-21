@@ -86,7 +86,7 @@ func (this *AddHandler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 	data, err := ioutil.ReadFile(string(path))
 	log.Println(path)
 
-	if err == nil {
+	if err == nil && r.Method == "POST" {
 		var contentType string
 
 		if strings.HasSuffix(path, ".css") {
@@ -140,7 +140,7 @@ func (this *AddHandler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 		}
 	} else {
 		w.WriteHeader(404)
-		w.Write([]byte("404 - " + http.StatusText(404)))
+		w.Write([]byte(""))
 	}
 }
 

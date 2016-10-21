@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="../public/css/styles.css">
+</head>
+<body>
+    <div class="Data">
+        <ul>
+            {{range .Numbers}}
+                <li><div class="DataElement"><p class="DataText">{{.}}</p></div></li>
+            {{end}}
+        </ul>
+        <div style="clear: both;"/>
+    </div>
+    <div class="FormDiv">
+        <form action="/add" method="post">
+            <input type="text" id="enteredData" name="dataentry">
+            <input type="submit" value="ADD TO DATABASE">
+        </form>
+    </div>
+</body>
+</html>

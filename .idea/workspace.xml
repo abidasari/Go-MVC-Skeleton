@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac2fe711-2240-4827-be37-e1cb4de3f30e" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/github.com/abidasari/main/main.go" afterPath="$PROJECT_DIR$/src/github.com/abidasari/server/server.go" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
-    </list>
+    <list default="true" id="ac2fe711-2240-4827-be37-e1cb4de3f30e" name="Default" comment="" />
     <ignored path="GoWebApp.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,8 +24,8 @@
       <file leaf-file-name="server.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/github.com/abidasari/server/server.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="140" column="8" selection-start-line="140" selection-start-column="8" selection-end-line="140" selection-end-column="8" />
+            <state relative-caret-position="270">
+              <caret line="147" column="30" selection-start-line="147" selection-start-column="30" selection-end-line="147" selection-end-column="30" />
               <folding>
                 <element signature="e#14#154#0" expanded="true" />
               </folding>
@@ -223,12 +219,12 @@
       <workItem from="1477026797678" duration="60000" />
       <workItem from="1477026912367" duration="3206000" />
       <workItem from="1477030280652" duration="5018000" />
-      <workItem from="1477045842696" duration="10662000" />
+      <workItem from="1477045842696" duration="10772000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18946000" />
+    <option name="totallyTimeSpent" value="19056000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1152" y="92" width="1280" height="698" extended-state="0" />
@@ -325,8 +321,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/github.com/abidasari/server/server.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="140" column="8" selection-start-line="140" selection-start-column="8" selection-end-line="140" selection-end-column="8" />
+        <state relative-caret-position="270">
+          <caret line="147" column="30" selection-start-line="147" selection-start-column="30" selection-end-line="147" selection-end-column="30" />
           <folding>
             <element signature="e#14#154#0" expanded="true" />
           </folding>

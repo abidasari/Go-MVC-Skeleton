@@ -43,12 +43,9 @@ func (this *MyHandler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 		}  else {
 			contentType = "text/plain"
 		}
-
 		w.Header().Add("Content-Type", contentType)
 		tmpl, err := template.New("TestTemplate").Parse(string(data))
 		if err == nil {
-
-
 			db, error := sql.Open("mysql", "root:ADASARE@tcp(localhost:3306)/sphere?charset=utf8")
 			checkErr(error)
 
